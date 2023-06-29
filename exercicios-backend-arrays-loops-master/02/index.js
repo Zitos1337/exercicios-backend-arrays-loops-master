@@ -1,10 +1,10 @@
-const letras = ["A", "a", "E", "Z", "e", "z"];
+const letras = ["A", "e", "a", "Z", "a", "z"];
 
 let contador = 0;
 
-for (let letra of letras) {
-    if (letra === "e" || letra === "E") {
-        contador++;
+for (let i = 0; i < letras.length; i++) {
+    if (letras[i] === "e" || letras === "E") {
+        contador++
     }
 }
 
